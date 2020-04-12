@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <title>MIMI'S WEB1</title>
+    <meta charset="utf-8">
+    <script src="colors.js"></script>
+</head>
+<body>
+    <h1><a href="index.html">MIMI'S WEB1</a></h1>
+
+    <input type="button" value="night" onclick="
+    nightDayHandler(this);
+    ">
+    
+    <ol>
+        <li><a href="1.html">HTML</a></li>
+        <li><a href="2.html">CSS</a></li>
+        <li><a href="3.html">JavaScript</a></li>
+    </ol>
+
+    <h2>♥MIMI'S WEB1♥</h2>
+    <p>Welcome to Mimi's page.</p>
+    Hi. This is first my <strong>website!!</strong><br>
+    One of My 2020 challenges is studying coding.<br>
+    I'm learning about <u>coding</u> <a href="https://www.w3.org/TR/2011/WD-html5-20110405/" target="_blank" title="html5 specification">Hypertext Markup Language (HTML).</a><br>
+    So I'm updating the page every day.<br>
+    It's so difficult for me but I'll try my best on the page.<br>
+    Thank you for visiting my page.<br>
+    
+    
+    <p>What is website?</p>
+    A website (also written as web site) is a collection of web pages and related content that is identified by a common domain name and published on at least one web server.<br> Notable examples are wikipedia.org, google.com, and amazon.com.<br>
+    <p>All publicly accessible websites collectively constitute the World Wide Web.<br> There are also private websites that can only be accessed on a private network, such as a company's internal website for its employees.</p>
+    <p>Websites are typically dedicated to a particular topic or purpose, such as news, education, commerce, entertainment, or social networking.<br> Hyperlinking between web pages guides the navigation of the site, which often starts with a home page.</p>
+    <p>Users can access websites on a range of devices, including desktops, laptops, tablets, and smartphones. The software application used on these devices is called a web browser.</p>
+
+
+    <input type="button" value="night" onclick="
+    var target=document.querySelector('body');
+    if(this.value==='night'){
+    target.style.backgroundColor='orange';
+    target.style.color='white';
+    this.value='day';
+
+    }else{
+    target.style.backgroundColor='white';
+    target.style.color='black';
+    this.value='night';
+    }
+    ">
+
+</body>
+</html>
